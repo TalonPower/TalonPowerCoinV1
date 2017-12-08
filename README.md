@@ -23,6 +23,7 @@ addnode=37.97.242.80
 
 ======================
 
+
 NOTE:  do not have spaces in your username and password  and do NOT add the  "========= "  Lines
 
 
@@ -34,12 +35,15 @@ In that same folder create a .BAT file names  talonPowerMiner.BAT
 
 Your Bat File Should look like this:
 
+
 ======================
 
 minerd --url=http://127.0.0.1:4210 --userpass=USER NAME CREATED ABOVE:PASS WORD CREATED ABOVE
 Pause
 
 ======================
+
+
 NOTE:  do not have spaces in your username and password  and do NOT add the  "========= "  Lines
 
 3.)  If your wallet was open please exit now, to be sure the changes were made.
