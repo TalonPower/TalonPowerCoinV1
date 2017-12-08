@@ -10,7 +10,7 @@ your file should look this
 
 ======= CONF  File  ========
 
-rpcuser= CREATE YOUR USER 
+rpcuser= CREATE YOUR USER
 rpcpassword=CREATE YOUR PASS WORD
 rpcallowip=127.0.0.1
 rpcport=4210
