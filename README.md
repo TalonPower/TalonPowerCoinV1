@@ -11,15 +11,25 @@ your file should look this
 ======= CONF  File  ========
 
 rpcuser= CREATE YOUR USER
+
 rpcpassword=CREATE YOUR PASS WORD
+
 rpcallowip=127.0.0.1
+
 rpcport=4210
+
 rpcallowip=127.0.0.1
+
 listen=1
+
 server=1
+
 txindex=1
+
 daemon=1
+
 addnode=37.97.242.80
+
 
 ===========================
 
