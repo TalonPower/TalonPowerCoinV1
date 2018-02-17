@@ -253,9 +253,14 @@
     </layout>
    </item>
    <item>
-    <layout class="QVBoxLayout" name="verticalLayout_3">
+    
+    
+<layout class="QVBoxLayout" name="verticalLayout_3">
      <item>
       <widget class="QFrame" name="frame_2">
+       <property name="styleSheet">
+        <string notr="true">#frame_2 { border-image: url(:/images/tx_back); padding-bottom: 10px; }</string>
+       </property>
        <property name="frameShape">
         <enum>QFrame::StyledPanel</enum>
        </property>
@@ -263,6 +268,10 @@
         <enum>QFrame::Raised</enum>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout">
+        
+        
+        
+        
         <item>
          <layout class="QHBoxLayout" name="horizontalLayout_2">
           <item>
