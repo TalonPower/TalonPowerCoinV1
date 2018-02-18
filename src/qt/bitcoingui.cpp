@@ -77,8 +77,10 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
     rpcConsole(0),
     nWeight(0)
 {
-    resize(850, 550);
-    setWindowTitle(tr("TalonPower") + " - " + tr("Wallet"));
+    # resize(850, 550);
+    # setFixedSize(1160, 581); 
+    setFixedSize(850, 550);
+    setWindowTitle(tr("My TalonPower") + " - " + tr("Wallet"));
     qApp->setStyleSheet("QMainWindow { background-image:url(:images/bkg);border:none;font-family:'Open Sans,sans-serif'; }");
 #ifndef Q_OS_MAC
     qApp->setWindowIcon(QIcon(":icons/bitcoin"));
